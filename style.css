@@ -1,0 +1,349 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+:root {
+    --colormainblue: rgb(100, 92, 255);
+    --colordark: rgb(34, 34, 34);
+    --hmainpadding:20px 10px;
+}
+
+.conteiner {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.sociallink img {
+    width: 20px;
+}
+
+header {
+    background-color: var(--colormainblue);
+}
+
+.topheader {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+
+}
+
+.menu li,
+.sociallink li {
+    display: inline;
+    list-style: none;
+    font-size: 13px;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.headerconteiner {
+    max-width: 1200px;
+    height: 500px;
+    color: white;
+    position: relative;
+
+}
+
+.contentheader {
+    text-align: center;
+    width: 50%;
+    font-weight: 300;
+    font-size: 12px;
+
+    margin-top: 30px;
+    position: absolute;
+    top: 60px;
+    transform: translate(50%, 50%);
+}
+
+.titul h1 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.logo {
+    font-weight: 700;
+    display: inline;
+
+    font-size: 14px;
+    min-width: 20px;
+
+}
+
+ul {
+    margin-left: auto;
+    margin-right: auto;
+
+    display: inline;
+}
+
+.menu {
+    display: none;
+}
+.icon img{
+    width: 100%;
+    
+}
+.icon{
+    width:60px;
+    height: 80px;
+    background-color: var(--colormainblue);
+    padding: 10px 5px;
+    display: flex;
+}
+.icontext{
+    text-align: center;
+    padding: 20px;
+    margin: 5px 20px;
+    
+}
+.icontext p{
+    font-size: 13px;
+    text-align: center;
+}
+.iconline{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    align-items: center;
+    justify-items: center;
+    
+}
+.iconbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services{
+    background-color: rgb(242, 239, 239);
+}
+.title h1{
+    padding: var(--hmainpadding);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+.textcontent{
+    text-align: justify;
+    
+}
+.datebox{
+    background-color: var(--colormainblue);
+   
+    font-size: 10px;
+    display: inline;
+    padding: 10px;
+    position: absolute;
+    top: 10%;
+    margin-left: 0;
+}
+.iconmap{
+    width:20px;
+}
+.boxmap{
+    color: var(--colormainblue);
+    display:grid;
+    grid-template-columns: 20px 1fr;;
+    align-items: center;
+   
+    column-gap: 5px;
+}
+.tourtext{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+.tourtextbottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+   
+}
+.boxtour{
+    max-width: 100%;
+    position: relative;
+}
+.boxtourconteiner{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+.boxshadow{
+    box-shadow: 0px 3px 10px lightgray;
+}
+.buttontour{
+    color: var(--colormainblue);
+    text-align: center;
+    font-size: 12;
+}
+.titlecolor{
+    color: var(--colormainblue);
+}
+.galerrycontainer1{
+    background-color: rgb(236, 230, 230);
+}
+.gallerycontainer2{
+    background-color: var(--colormainblue);
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+}
+.email{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    padding: 20px;
+    
+    
+
+}
+input, textarea{
+
+    background-color: lightgrey;
+    border: none;
+    padding: 10px 10px 10px 10px;
+    font-weight: lighter;
+   
+    
+}
+form{
+    display: inline;
+    background-color:lightgrey ;
+    max-width: 252px;
+    min-width: 252px;
+
+}
+.submit1{
+    background-color: rgb(171, 171, 176);
+    
+}
+.subscribe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.textboxsub{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.footerconteiner{
+    background-color: var(--colordark);
+    padding: 30px;
+    color: white;
+    font-size: 13px ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+.navigfooter{
+   
+    display: flex;
+    width: 100%;
+   
+   
+}
+.navigfooter li, .navigfooter a{
+    list-style: none;
+    display: inline;
+    color: white;
+}
+.copyright{
+    font-weight: lighter;
+    text-transform: lowercase;
+    text-align: center;
+}
+@media screen and (min-width:900px)
+{
+    .menu {
+        display: flex;
+        column-gap: 15px;
+    }
+    .menu a:hover{
+        transition: ease;
+        color: var(--colormainblue);
+        font-weight: bolder;
+    }
+    .topheader {
+        background-color: white;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 20px;
+        padding-bottom: 30px;
+        align-items: center;
+        justify-content: space-around;
+        justify-items: center;
+    
+    }
+    .headerconteiner{
+        background-image: url(/cat\ hong\ kong.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+.iconline{
+    display: flex;
+    margin: 20px 40px 40px 50px
+}
+.servicecontent{
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+.conteiner{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.maptext{
+    display: inline-block;
+}
+.gallerycontainer2 .photogallery{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
+main .conteiner{
+    display: grid;
+   grid-template-columns: 1fr;
+}
+main .boxtourconteiner{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+}
