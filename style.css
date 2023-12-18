@@ -81,6 +81,7 @@ a {
 .titul h1 {
     font-weight: 600;
     font-size: 20px;
+    margin-bottom: 0px;
 }
 
 .logo {
@@ -144,6 +145,7 @@ ul {
     text-align: center;
     font-size: 30px;
     font-weight: 600;
+    margin-bottom: 0px;
 }
 .textcontent{
     text-align: justify;
