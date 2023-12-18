@@ -77,6 +77,19 @@ a {
     top: 60px;
     transform: translate(50%, 50%);
 }
+.explore{
+    background-color: var(--colormainblue);
+    padding: 5px 15px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgb(50, 50, 50, 0.4);
+    
+
+}
+.explore:hover{
+    color: cornsilk;
+    background-color: transparent;
+    transition: background 1.5s ease;
+}
 
 .titul h1 {
     font-weight: 600;
